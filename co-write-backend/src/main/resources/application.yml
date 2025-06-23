@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: yjs_endpoint
+  datasource:
+    username: root
+    password: Wuliu@123qbs!#?_.1
+    url: jdbc:mysql://10.20.132.21:3306/knowledge_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  secret: "!Q@W#E$R#key!should&be%long@enough"
+  expiration: 86400000
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
